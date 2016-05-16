@@ -844,6 +844,13 @@
             model="uk.ac.diamond.scisoft.analysis.processing.operations.externaldata.ExternalDataSelectedFramesModel"
             name="Add Frame">
       </operation>
+      <operation
+            class="uk.ac.diamond.scisoft.analysis.processing.sxrdrods.RodScanPolynomial1DOperation"
+            icon="icons/template.png"
+            id="uk.ac.diamond.scisoft.analysis.processing.sxrdrods.RodScanPolynomial1DOperation"
+            model="uk.ac.diamond.scisoft.analysis.processing.sxrdrods.RodScanPolynomial1DModel"
+            name="Rod Scan SXRD Polynomial Background 1D">
+      </operation>
    </extension>
    <extension
          point="org.eclipse.dawnsci.analysis.classloader">
